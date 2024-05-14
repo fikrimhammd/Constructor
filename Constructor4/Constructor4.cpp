@@ -21,7 +21,7 @@ int main()
 {
 	cout << bukunya.setJudul("Matematika").getJudul();
 	return 0;
-}
+} 
 
 
 
