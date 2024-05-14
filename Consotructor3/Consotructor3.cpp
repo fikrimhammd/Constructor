@@ -21,29 +21,34 @@ public:
 };
 
 
-mahasiswa::mahasiswa(string iNama) {
-	nim = 0;
+mahasiswa::mahasiswa(string iNama){
 	nama = iNama;
 }
 
-mahasiswa::mahasiswa(int iNim, string iNama) {
+mahasiswa::mahasiswa(int iNim, string iNama){
 	nim = iNim;
 	nama = iNama;
 }
-void mahasiswa::cetak() {
+void mahasiswa::cetak(){
 	cout << endl << "Nim =" << nim << endl;
 	cout << " Nama = " << nama << endl;
 }
 
-int main() {
+int main(){
 	mahasiswa mhs1;
-	mahasiswa(159);
-	mahasiswa("Muhammad Dzulfikri");
-	mahasiswa(159, "Muhammad Dzulfikri");
+	mahasiswa mhs2(159);
+	mahasiswa mhs3("Dzulfikri");
+	mahasiswa mhs4(159, "Dzulfikri");
 
 	mhs1.cetak();
 	mhs2.cetak();
+	mhs3.cetak();
+	mhs4.cetak();
 
+	return 0;
+}
+
+	
 
 
 
