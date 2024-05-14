@@ -34,7 +34,7 @@ void mahasiswa::cetak(){
 	cout << " Nama = " << nama << endl;
 }
 
-int main(){
+int main() {
 	mahasiswa mhs1;
 	mahasiswa mhs2(159);
 	mahasiswa mhs3("Dzulfikri");
