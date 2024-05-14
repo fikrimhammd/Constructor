@@ -44,4 +44,4 @@ int main() {
 	delete ptrBelajarcpp;
 
 	return 0;
-}
+} 
